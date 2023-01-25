@@ -1,16 +1,16 @@
 # Deep-Learning-Neural-Network-Model
 In this code, a machine learning model is created to predict the success of startups applying for funding from Alphabet Soup, a venture capital firm. The model is a binary classifier, which uses a dataset of over 34,000 organizations that have received funding from Alphabet Soup in the past. The dataset contains various information about the businesses, including whether or not they were successful.
 
-#Technologies
+**Technologies**
 Pandas, scikit-learn, TensorFlow, and Keras are used in this code.
 
-#Installations
+**Installations**
 pip install pandas
 pip install scikit-learn
 pip install tensorflow
 pip install keras
 
-#Usage
+**Usage**
 The code is divided into three main sections: preparing the data, compiling and evaluating the model, and optimizing the model.
 
 In the first section, the dataset is read into a Pandas DataFrame, categorical variables are encoded using OneHotEncoder, and numerical variables are added to the encoded DataFrame. The features and target datasets are then created and split into training and testing sets.
@@ -21,5 +21,5 @@ In the third section, the model is optimized to improve its accuracy. The code i
 
 The final model is saved and exported to an HDF5 file named AlphabetSoup.h5.
 
-#Contributors
+**Contributors**
 I am the main contributor for this code!
